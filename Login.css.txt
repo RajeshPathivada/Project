@@ -1,0 +1,97 @@
+Login.css
+
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital@1&family=Merriweather:ital,wght@1,300&family=Satisfy&family=Shantell+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+section .imgBx{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+section .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+section .contentBx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+section .contentBx .formBx{
+    width: 50%;
+}
+section .contentBx .formBx h2{
+    color: #66e2de;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid rgb(68, 182, 165);
+    display: inline-block;
+    letter-spacing: 1px;
+}    
+section .contentBx .formBx .inputBx{
+    margin-bottom: 20px;
+}
+section .contentBx .formBx .inputBx span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #45a8a5;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+section .contentBx .formBx .inputBx input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px soild #66e2de;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #66e2de;
+    background: transparent;
+    border-radius: 30px;
+}
+section .contentBx .formBx .inputBx input[type="Submit"]{
+    background: #66e2de;
+    color: black;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+section .contentBx .formBx .inputBx input[type="Submit"]:hover{
+   background: rgb(68, 182, 165); 
+}
+section .contentBx .formBx .remember{
+    margin-bottom: 10px;
+    color: rgb(81, 10, 10);
+    font-weight: 400;
+    font-size: 14px;
+}
+section .contentBx .formBx .inputBx p{
+    color: rgb(81, 10, 10);
+}
+section .contentBx .formBx .inputBx p a{
+    color: rgb(81, 10, 10);
+    text-transform: uppercase;
+    font-size: 20px;
+}

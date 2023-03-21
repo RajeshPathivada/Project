@@ -1,0 +1,51 @@
+Signup.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <section>
+        <div class="imgBx">
+            <img src="images/pic5.png" alt="welcome">
+        </div>
+        <div class="contentBx">
+            <div class="formBx">
+              <h2>Sign-Up</h2>  
+              <form>
+                <div class="inputBx">
+                    <span>Firstname</span> 
+                    <input type="text" required pattern="[A-Z a-z]" placeholder="Enter Firstname"> 
+                 </div>
+                <div class="inputBx">
+                   <span>Email Id</span> 
+                   <input type="text" required pattern="[A-Z a-z]" placeholder="Enter Email id"> 
+                </div>
+                <div class="inputBx">
+                    <span>Password</span> 
+                    <input type="password" required placeholder="Enter password "> 
+                 </div>
+                 <div class="inputBx">
+                    <span> Conform Password</span> 
+                    <input type="password" required placeholder="Conform password "> 
+                 </div>
+                 <div class="inputBx">
+                    <input type="Submit" value="Sign-Up" name=""> 
+                 </div>
+                 <div class="inputBx">
+                    <p>Travel back to home! <a href="home.html">HOME</a></p>
+                 </div>
+              </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
